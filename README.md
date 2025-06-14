@@ -1,12 +1,57 @@
-# React + Vite
+# 🗓️ Calendar Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive, month-view calendar app built with **React** that allows users to:
 
-Currently, two official plugins are available:
+- View a full calendar grid
+- Add, edit, and delete events on any day
+- View events in a modal
+- Navigate between months
+- Fully responsive design for desktop and mobile
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+## 🚀 Live Demo
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🌐 [Click here to view the live app](https://horizon-assessment-xi.vercel.app/)  
+
+---
+
+## 📂 Features Implemented
+
+| Feature             | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| ✅ Month View        | Full grid layout for the current month with Sunday-to-Saturday alignment   |
+| ✅ Highlight Today   | Today is styled distinctly for quick recognition                           |
+| ✅ Navigation        | Navigate to previous or next months using buttons                          |
+| ✅ Add Events        | Click any date to open a form and add event with title, time, description  |
+| ✅ View Events       | Click a date with events to view them in a dedicated modal                 |
+| ✅ Edit/Delete       | Modify or remove existing events with one click                            |
+| ✅ Responsive        | Works smoothly on desktop, tablet, and mobile                              |
+
+---
+
+## 🛠️ Tech Stack
+
+- **React** (via Vite)
+- **dayjs** for date handling
+- **Plain CSS** for layout and responsive design
+- **No external UI frameworks used**
+
+---
+
+## 🧪 How to Run Locally
+
+```bash
+# 1. Clone the repository
+git clone https://github.com/bansita/HorizonAssessment.git
+cd HorizonAssessment
+
+# 2. Install dependencies
+npm install
+
+# 3. Start the development server
+npm run dev
+
+---
+
+🙌 Author
+Made with ❤️ by Bansita
