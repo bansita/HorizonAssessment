@@ -38,6 +38,11 @@ A responsive, month-view calendar app built with **React** that allows users to:
 
 ---
 
+⏱️ Time Taken
+Approx. 12–14 hours spread over 1 days:
+
+---
+
 ## 🧪 How to Run Locally
 
 ```bash
